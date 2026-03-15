@@ -1,0 +1,32 @@
+Enlistar 5 personajes e incorporar ya sea una pagina oficial o un video
+#Juan Pablo González Gallegos
+<style>
+    body{
+        background-color: aqua;
+    }
+    ul{
+        list-style-type: square;
+        list-style-type: none;
+        counter-reset: item;
+    }
+    li{
+        position: relative;
+        padding-left: 2em;
+    }
+    li::before{
+        content: counter(item);
+        counter-increment: item;
+
+        color: blue;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <ul>
+        <li>Bad Bunny<iframe width="460" height="215" src="https://www.youtube.com/embed/a1Femq4NPxs?si=CMMP168_AzlOIuVi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+        <li> <a href="https://es.wikipedia.org/wiki/John_Cena">John Cena</a></li>
+        <li>Mario Bros <img src="https://goo.su/YiAQScK" width="100" height="200"></li>
+        <li><a href="https://es.wikipedia.org/wiki/Lionel_Messi">Messi</a></li>
+        <li>Triple H<iframe width="460" height="215" src="https://www.youtube.com/embed/sZDHlKK6VD8?si=4oWWH0OGu9qL092Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    </ul>
+</body>
