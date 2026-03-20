@@ -1,0 +1,35 @@
+form{
+    background: white;
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+body{
+    font-family: Arial;
+    background-color: #b0e9ed;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
